@@ -342,6 +342,7 @@ font-size: 2.5rem;
 .nike-external{
     display: flex;
     flex-wrap: wrap;
+    margin-left: 2rem;
 }
 
 .nike-external .nike-box{
