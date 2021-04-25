@@ -1,0 +1,21 @@
+@media(max-width:576px){
+    .nike-shoes .nike-right{
+        width: 40rem;
+        margin-left: 0
+    }
+    
+    .nike-shoes .nike-right img{
+        width:40rem ;
+    }
+    
+    .nike-left .nike-top{
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: center;
+    }
+    .nike-left .nike-bottom{
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: center;
+    }
+}

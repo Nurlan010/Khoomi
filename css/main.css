@@ -1,0 +1,403 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+#navbar{
+    max-width: 136.6rem;
+   margin: 0 auto;
+   position: relative;
+}
+#navbar .nav-top{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+   padding: 0 2.5rem;
+}
+.search{
+    width: 50%;
+}
+
+.search input{
+   width: 70%;
+    padding: 1rem;
+   border: 1px solid rgba(0, 0, 0, 0.4);
+   border-radius: 5px;
+   font-size: 1.4rem;
+   
+}
+
+i{
+    transform: translateX(-40px);
+    font-size: 1.5rem;
+}
+.search{
+    margin-top:1.5rem ;
+}
+.profile{
+margin-top: 2rem;
+
+}
+.profile .icon{
+    display: inline-block;
+position: relative;
+width: 3rem;
+}
+.icon, .icon2{
+    margin-right: 2rem;
+}
+.icon .group2{
+    position: absolute;
+    top: -0.2rem;
+    right: 3px;   
+}
+
+.profile{
+    display: flex;
+}
+
+/* Category */
+.nav-category{
+    height: 10vh;
+ background-color: rgb(255, 255, 255);
+ display: flex;
+ justify-content: space-between;
+}
+
+.menu{
+        width: 19.7rem;
+    height: 4.4rem;
+    border-color:1px solid #EFEFEF;
+    border-radius: 5px;
+    background-color: #F8F8F8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.menu, .categories{
+    margin-top: 1rem;
+}
+
+.categories ul{
+   font-size: 1.4rem;
+   display: flex;
+}
+
+.categories ul li{
+   list-style-type: none;
+   margin: 0 2rem;
+       padding:  2rem;
+}
+
+
+.categories ul li a{
+    text-decoration: none;
+    color: #302F2F;
+    padding: 1.5rem 0;
+}
+
+.categories ul li a:hover{
+    color: #FF4F04;
+    border-bottom: 3px solid  #FF4F04;
+}
+
+/* Home */
+#home{
+    max-width: 100%;
+    height: 56rem;
+    padding-left: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: radial-gradient( #44305B,#080421,#080421);
+    overflow: hidden;
+}
+
+.home-left{
+    color: #FFFFFF;
+    margin-bottom: 4rem;
+}
+.home-left h1{
+    text-transform: uppercase;
+    font-size: 5.4rem;
+}
+
+.home-left p{
+    font-size: 1.6rem;
+    margin: 3rem 0;
+}
+
+.home-left .btn-1{
+    width: 13.7rem;
+    height: 5rem;
+    background-color: #FF4F04;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.home-left .btn-1 .btn-items{
+        display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.home-left .btn-2{
+    width: 22.4rem;
+    height: 5rem;
+    background-color: #3F3366;
+    color: #FFFFFF;
+    font-size: 1.6rem;
+    border-radius: 5px;
+    border:none ;
+}
+
+/* Section-1 */
+#sec-1{
+    max-width: 100%;
+    /* height:100vh; */
+}
+
+#sec-1 .watch-sec{
+    width: 100%;
+    /* height: 28.2rem; */
+    background-color: #F8F8F8;
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.watch-sec h1, .watch-sec p{
+    text-align: center;
+    text-transform: uppercase;
+}
+.watch-sec p{
+    font-size: 1.4rem;
+}
+
+.watch-sec h1{
+    font-size: 2.5rem;
+    margin: 1rem;
+    font-weight: 700;
+}
+.watch-box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.watch-sale{
+    margin: 3rem;
+}
+
+.watch-sale h2{
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+
+
+/* Section 2- New Collection */
+#sec-2{
+    max-width: 100%;
+  
+}
+.new-collection{
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-collection h1, .new-collection p{
+    text-align: center;
+    text-transform: uppercase;
+}
+.new-collection p{
+    font-size: 1.4rem;
+}
+
+.new-collection h1{
+    font-size: 2.5rem;
+    margin: 1rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.nike-shoes{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 4rem;
+}
+
+.nike-top{
+    display: flex;
+}
+
+.nike-bottom{
+    display: flex;
+}
+.nike-shoes .nike-general{
+    width: 25.5rem;
+    /* height: 32.5rem; */
+    background-color: #F5F5F5;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+    border-radius: 10px;
+}
+.nike-shoes .nike-general img{
+    margin-top: 3rem;
+}
+
+.nike-general .wrt-btn{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+}
+.wrt-btn h2{
+   font-size: 1.8rem;
+   padding-top: 0.5rem;
+
+
+}
+
+.nike-shoes .nike-right{
+    width: 54rem;
+    /* height: 68rem; */
+    background-color: #F5F5F6;
+    border-radius: 10px;
+    margin-left: 5rem;
+}
+
+.nike-right .btn-between{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.btn-between .btn-sale{
+    width: 9.8rem;
+    height: 3.4rem;
+    background-color: #111111;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+.img-write{
+    padding-left: 2.6rem;
+}
+
+.img-write h3{
+font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.img-write span{
+    font-size: 1.4rem;
+    color: #7A7A7A;
+  
+}
+
+/* Section 3- Trending */
+#sec-3{
+    max-width: 100%;
+}
+
+.trend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.trend h1, .trend p{
+    text-align: center;
+    text-transform: uppercase;
+}
+.trend p{
+    font-size: 1.4rem;
+}
+
+.trend h1{
+    font-size: 2.5rem;
+    margin: 1rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.nike-external{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nike-external .nike-box{
+margin-left: 4.7rem;
+margin-bottom: 5rem;
+}
+.nike-external .nike-box img{
+    width: 26.9rem;
+    height: 26.9rem;
+    border-radius: 10px;
+}
+
+.nike-external .wrt-btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.wrt-btn h2{
+   font-size: 1.6rem;
+   padding-top: 0.5rem;
+
+}
+
+/* Footer */
+#foot{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 4rem;
+}
+
+#foot .foot-left p{
+    font-size: 1.6rem;
+    padding-top: 2rem;
+    line-height: 3rem;
+}
+
+
+#foot .foot-right {
+    display: flex;
+}
+
+.foot-right .part{
+    margin-left: 15.4rem;
+}
+.part ul{
+    padding: 1rem 0;
+}
+
+.part ul li{
+    list-style-type: none;
+    padding: 1rem 0;
+    font-size: 1.4rem;
+  
+}
+.part ul li a{
+    text-decoration: none;
+      color: #302F2F;
+}

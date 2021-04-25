@@ -1,0 +1,75 @@
+/* Button- Explore other products */
+.btn-w{
+    background-color: #FFFFFF;
+   width: 224.22px;
+   height: 56.19px;
+   padding: 2rem;
+   border-color: #707070;
+   border-radius: 5px;
+   font-size: 1.6rem;
+   font-weight:500;
+   margin: 4rem 0;
+   cursor: pointer;
+   }
+
+   
+/* Background shoes */
+.bg-shoes{
+    background-image: url(../images/shoes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom:5rem ;
+
+}
+.inside{
+        max-width: 100%;
+    height: 251px;
+    align-items: center;
+  display: flex;
+ justify-content: space-around;
+ align-items: center; 
+ background-image: url(../images/Rectangle.png);
+}
+
+.bg-shoes h1{
+    width: 528px;
+    font-size: 3.5rem;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    line-height: 5.6rem;
+}
+
+.bg-shoes button{
+width: 22.4rem;
+height: 5.6rem;
+background-color: rgba(0, 0, 0, 0.1);
+border-color: #FFFFFF;
+border-radius: 5px;
+cursor: pointer;
+font-size: 1.6rem;
+color: #FFFFFF;
+
+}
+
+/* Button $990 */
+.btn-value{
+    width: 56px;
+    height: 31px;
+    background-color:#FFEFE8 ;
+    font-size: 1.4rem;
+    color:#FF4F04 ;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-value2{
+    width: 56px;
+    height: 31px;
+    background-color:#FFFFFF ;
+    font-size: 1.4rem;
+    color:#FF4F04 ;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}

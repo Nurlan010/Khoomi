@@ -1,0 +1,41 @@
+@media(max-width:1078px){
+.nav-category{
+    margin-bottom: 2rem;
+}
+
+#home{
+padding-left: 5rem;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#home .home-left{
+    width:100%;
+}
+
+
+#sec-1 .watch-box{
+    flex-wrap: wrap;
+}
+
+.watch-sale .watch img{
+    width: 240px;
+}
+
+.btn-w{
+    margin-top: 2rem;
+}
+
+#sec-2 .nike-shoes{
+flex-wrap: wrap;
+}
+
+#sec-2 .nike-right{
+    margin-left: 3rem;
+}
+
+#sec-3 .nike-external{
+    justify-content: center;
+}
+
+}
